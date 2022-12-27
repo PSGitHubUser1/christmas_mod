@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Christmasfun",
+    "texture": "christmas_disc",
+    "description": "vlqs - Christmasfun",
+    "creativeTab": {
+      "value": "CUSTOM:InfoyChristmas"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:christmas_fun"
+    },
+    "lengthInTicks": 1680,
+    "analogOutput": 2
+  }
+}

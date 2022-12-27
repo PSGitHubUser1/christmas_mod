@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "christmas",
+  "version": "0.1",
+  "name": "Christmas",
+  "description": "Christmas Mod by InfoyPS",
+  "authors": [
+    "InfoyPS, ByBoxi, SnowCloud, JerryJace, Legopitstop, Jaxonation, JetCraft"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "MIT License",
+  "icon": "assets/christmas/icon.png",
+  "accessWidener": "christmas.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.celebration.christmas.ChristmasMod"
+    ],
+    "client": [
+      "net.celebration.christmas.ClientInit"
+    ],
+    "terrablender": [
+      "net.celebration.christmas.TerraBlenderInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "christmas.mixins.json"
+  ]
+}

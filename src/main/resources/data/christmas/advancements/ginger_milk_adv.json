@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "christmas:hot_ginger_milk"
+    },
+    "title": {
+      "translate": "advancements.ginger_milk_adv.title"
+    },
+    "description": {
+      "translate": "advancements.ginger_milk_adv.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "ginger_milk_adv": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "christmas:hot_ginger_milk"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "christmas:gingerbread_adv"
+}

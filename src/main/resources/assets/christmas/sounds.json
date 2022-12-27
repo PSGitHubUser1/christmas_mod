@@ -1,0 +1,12 @@
+{
+  "christmas_fun": {
+    "category": "record",
+    "subtitle": "subtitles.christmas_fun",
+    "sounds": [
+      {
+        "name": "christmas:christmas_vlqs",
+        "stream": true
+      }
+    ]
+  }
+}

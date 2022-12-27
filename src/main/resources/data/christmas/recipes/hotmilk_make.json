@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 6,
+  "cookingtime": 80,
+  "ingredient": {
+    "item": "christmas:milk_bottle"
+  },
+  "result": "christmas:hot_milk"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "christmas:hot_milk"
+    },
+    {
+      "item": "christmas:sweet_candy"
+    },
+    {
+      "item": "minecraft:cookie"
+    }
+  ],
+  "result": {
+    "item": "christmas:candy_cane",
+    "count": 1
+  }
+}

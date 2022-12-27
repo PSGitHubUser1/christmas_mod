@@ -1,0 +1,503 @@
+{
+  "mod_elements": [
+    {
+      "name": "Tree",
+      "type": "structure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree"
+    },
+    {
+      "name": "SantaTotem",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "santa_totem"
+    },
+    {
+      "name": "SantaTotemActivate",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "santa_totem_activate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GingerBreadCookie",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ginger_bread_cookie"
+    },
+    {
+      "name": "GingerBreadmake",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ginger_breadmake"
+    },
+    {
+      "name": "SantaTotemRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "santa_totem_recipe"
+    },
+    {
+      "name": "ChristmasWither",
+      "type": "painting",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "christmas_wither"
+    },
+    {
+      "name": "ChristmasSkullandRoses",
+      "type": "painting",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "christmas_skulland_roses"
+    },
+    {
+      "name": "ChristmasSkeletonPicture",
+      "type": "painting",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "christmas_skeleton_picture"
+    },
+    {
+      "name": "ChristmasPointer",
+      "type": "painting",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "christmas_pointer"
+    },
+    {
+      "name": "ChristmasPigscene",
+      "type": "painting",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "christmas_pigscene"
+    },
+    {
+      "name": "ChristmasMatch",
+      "type": "painting",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "christmas_match"
+    },
+    {
+      "name": "SantaTotemAdv",
+      "type": "achievement",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "santa_totem_adv"
+    },
+    {
+      "name": "GingerbreadAdv",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gingerbread_adv"
+    },
+    {
+      "name": "InfoyChristmas",
+      "type": "tab",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infoy_christmas"
+    },
+    {
+      "name": "HotMilk",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_milk"
+    },
+    {
+      "name": "HotGingerMilk",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_ginger_milk"
+    },
+    {
+      "name": "HotGingermilkmake",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hot_gingermilkmake"
+    },
+    {
+      "name": "MilkBottle",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_bottle"
+    },
+    {
+      "name": "HotMilkmake",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hot_milkmake"
+    },
+    {
+      "name": "MilkBottlemake",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "milk_bottlemake"
+    },
+    {
+      "name": "SweetCandy",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_candy"
+    },
+    {
+      "name": "CandyCane",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_cane"
+    },
+    {
+      "name": "Candymake",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "candymake"
+    },
+    {
+      "name": "CandyCanemake",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "candy_canemake"
+    },
+    {
+      "name": "HotMilkAdv",
+      "type": "achievement",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_milk_adv"
+    },
+    {
+      "name": "GingerMilkAdv",
+      "type": "achievement",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ginger_milk_adv"
+    },
+    {
+      "name": "MilkBottleAdv",
+      "type": "achievement",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_bottle_adv"
+    },
+    {
+      "name": "ChristmasArmor",
+      "type": "armor",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "christmas_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ChristmasHelmetmake",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "christmas_helmetmake"
+    },
+    {
+      "name": "ChristmasChestmake",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "christmas_chestmake"
+    },
+    {
+      "name": "ChristmasHelmetmake1",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "christmas_helmetmake_1"
+    },
+    {
+      "name": "ChristmasBootsmake",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "christmas_bootsmake"
+    },
+    {
+      "name": "GrantRecipes",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grant_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CandyAdv",
+      "type": "achievement",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_adv"
+    },
+    {
+      "name": "CandyCaneAdv",
+      "type": "achievement",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_cane_adv"
+    },
+    {
+      "name": "ChristmasFunDisc",
+      "type": "musicdisc",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "christmasfun_disc"
+    },
+    {
+      "name": "TreeAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_additional_generation_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "christmas_fun",
+      "files": [
+        "christmas_vlqs"
+      ],
+      "category": "record",
+      "subtitle": "Christmas Fun Plays"
+    }
+  ],
+  "language_map": {
+    "en_gb": {
+      "item.christmas.hot_ginger_milk": "Hot Ginger Milk Bottle",
+      "item.christmas.sweet_candy": "Sweet Candy",
+      "item.christmas.christmasfun_disc": "Christmasfun",
+      "item.christmas.hot_milk": "Hot Milk Bottle ",
+      "advancements.hot_milk_adv.descr": "Drink Hot Milk",
+      "advancements.candy_cane_adv.descr": "Eat Candy Cane",
+      "advancements.hot_milk_adv.title": "Important in colds!",
+      "item.christmas.christmas_armor_boots": "Christmas Armor Boots",
+      "advancements.candy_cane_adv.title": "Sweetier than expected!",
+      "item.christmas.christmas_armor_leggings": "Christmas Armor Leggings",
+      "item.christmas.candy_cane": "Candy Cane",
+      "advancements.gingerbread_adv.title": "Made with sweeetiness!",
+      "item.christmas.milk_bottle": "Milk Bottle",
+      "advancements.santa_totem_adv.title": "Santa saved me!",
+      "advancements.milk_bottle_adv.descr": "Obtain Milk Bottle",
+      "item.christmas.christmas_armor_chestplate": "Christmas Armor Chestplate",
+      "advancements.ginger_milk_adv.descr": "Drink Ginger Milk",
+      "subtitles.christmas_fun": "Christmas Fun Plays",
+      "itemGroup.christmas.infoy_christmas": "Infoy\u0027s Christmas Mod",
+      "item.christmas.christmas_armor_helmet": "Christmas Armor Helmet",
+      "item.christmas.christmasfun_disc.desc": "vlqs - Christmasfun",
+      "advancements.gingerbread_adv.descr": "Obtain Gingerbread Biscuit",
+      "advancements.ginger_milk_adv.title": "Different taste?",
+      "advancements.candy_adv.title": "Tooth Fairy!",
+      "item.christmas.santa_totem": "Santa Totem",
+      "item.christmas.ginger_bread_cookie": "Gingerbread Biscuit",
+      "advancements.candy_adv.descr": "Eat Soft Candy",
+      "advancements.santa_totem_adv.descr": "Use Santa Totem",
+      "advancements.milk_bottle_adv.title": "It not cooked! Cook it!"
+    },
+    "en_us": {
+      "item.christmas.hot_ginger_milk": "Hot Ginger Milk Bottle",
+      "item.christmas.sweet_candy": "Soft Candy",
+      "item.christmas.christmasfun_disc": "Christmasfun",
+      "item.christmas.hot_milk": "Hot Milk Bottle",
+      "advancements.hot_milk_adv.descr": "Drink Hot Milk",
+      "advancements.candy_cane_adv.descr": "Eat Candy Cane",
+      "advancements.hot_milk_adv.title": "Important in colds!",
+      "item.christmas.christmas_armor_boots": "Christmas Boots",
+      "advancements.candy_cane_adv.title": "Sweetier than expected!",
+      "item.christmas.christmas_armor_leggings": "Christmas Pant",
+      "item.christmas.candy_cane": "Candy Cane",
+      "advancements.gingerbread_adv.title": "Made with sweeetiness!",
+      "item.christmas.milk_bottle": "Milk Bottle",
+      "advancements.santa_totem_adv.title": "Santa saved me!",
+      "advancements.milk_bottle_adv.descr": "Obtain Milk Bottle",
+      "item.christmas.christmas_armor_chestplate": "Christmas T-Shirt",
+      "advancements.ginger_milk_adv.descr": "Drink Ginger Milk",
+      "subtitles.christmas_fun": "Christmas Fun Plays",
+      "itemGroup.christmas.infoy_christmas": "Infoy\u0027s Christmas Mod",
+      "item.christmas.christmas_armor_helmet": "Christmas Cap",
+      "item.christmas.christmasfun_disc.desc": "vlqs - Christmasfun",
+      "advancements.gingerbread_adv.descr": "Obtain Gingerbread Cookie",
+      "advancements.ginger_milk_adv.title": "Different taste?",
+      "advancements.candy_adv.title": "Tooth Fairy!",
+      "item.christmas.santa_totem": "Santa Totem",
+      "item.christmas.ginger_bread_cookie": "Gingerbread Cookie",
+      "advancements.candy_adv.descr": "Eat Soft Candy",
+      "advancements.santa_totem_adv.descr": "Use Santa Totem",
+      "advancements.milk_bottle_adv.title": "It not cooked! Cook it!"
+    },
+    "en_in": {
+      "item.christmas.hot_ginger_milk": "Hot Ginger Milk Bottle",
+      "item.christmas.sweet_candy": "Sweet Candy",
+      "item.christmas.christmasfun_disc": "Christmasfun",
+      "item.christmas.hot_milk": "Hot Milk Bottle",
+      "advancements.hot_milk_adv.descr": "Drink Hot Milk",
+      "advancements.candy_cane_adv.descr": "Eat Candy Cane",
+      "advancements.hot_milk_adv.title": "Important in colds!",
+      "item.christmas.christmas_armor_boots": "Christmas Armor Boots",
+      "advancements.candy_cane_adv.title": "Sweetier than expected!",
+      "item.christmas.christmas_armor_leggings": "Christmas Armor Leggings",
+      "item.christmas.candy_cane": "Candy Cane",
+      "advancements.gingerbread_adv.title": "Made with sweeetiness!",
+      "item.christmas.milk_bottle": "Milk Bottle",
+      "advancements.santa_totem_adv.title": "Santa saved me!",
+      "advancements.milk_bottle_adv.descr": "Obtain Milk Bottle",
+      "item.christmas.christmas_armor_chestplate": "Christmas Armor Chestplate",
+      "advancements.ginger_milk_adv.descr": "Drink Ginger Milk",
+      "subtitles.christmas_fun": "Christmas Fun Plays",
+      "itemGroup.christmas.infoy_christmas": "Infoy\u0027s Christmas Mod",
+      "item.christmas.christmas_armor_helmet": "Christmas Armor Helmet",
+      "item.christmas.christmasfun_disc.desc": "vlqs - Christmasfun",
+      "advancements.gingerbread_adv.descr": "Obtain Gingerbread Cookie",
+      "advancements.ginger_milk_adv.title": "Different taste?",
+      "advancements.candy_adv.title": "Tooth Fairy!",
+      "item.christmas.santa_totem": "Santa Totem",
+      "item.christmas.ginger_bread_cookie": "Gingerbread Cookie",
+      "advancements.candy_adv.descr": "Eat Soft Candy",
+      "advancements.santa_totem_adv.descr": "Use Santa Totem",
+      "advancements.milk_bottle_adv.title": "It not cooked! Cook it!"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "christmas",
+    "modName": "Christmas",
+    "version": "0.1",
+    "description": "Christmas Mod by InfoyPS",
+    "author": "InfoyPS, ByBoxi, SnowCloud, JerryJace, Legopitstop, Jaxonation, JetCraft",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "christmas_pointer",
+    "requiredMods": [
+      "terrablender",
+      "fabric"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "terrablender",
+      "portinglib"
+    ],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.celebration.christmas",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

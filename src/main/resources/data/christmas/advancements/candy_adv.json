@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "christmas:sweet_candy"
+    },
+    "title": {
+      "translate": "advancements.candy_adv.title"
+    },
+    "description": {
+      "translate": "advancements.candy_adv.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "candy_adv": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "christmas:sweet_candy"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "christmas:gingerbread_adv"
+}

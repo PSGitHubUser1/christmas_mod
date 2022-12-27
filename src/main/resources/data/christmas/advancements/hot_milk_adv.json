@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "christmas:hot_milk"
+    },
+    "title": {
+      "translate": "advancements.hot_milk_adv.title"
+    },
+    "description": {
+      "translate": "advancements.hot_milk_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "hot_milk_adv": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "christmas:hot_milk"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "christmas:gingerbread_adv"
+}
