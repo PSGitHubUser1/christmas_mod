@@ -8,5 +8,15 @@
         "stream": true
       }
     ]
+  },
+  "santa": {
+    "category": "record",
+    "subtitle": "subtitles.santa",
+    "sounds": [
+      {
+        "name": "christmas:santa",
+        "stream": true
+      }
+    ]
   }
 }

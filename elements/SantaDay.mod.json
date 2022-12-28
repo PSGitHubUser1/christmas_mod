@@ -3,17 +3,17 @@
   "_type": "musicdisc",
   "definition": {
     "name": "Music Disc",
-    "texture": "christmas_disc",
-    "description": "vlqs - Christmasfun",
+    "texture": "santa",
+    "description": "ByBoxi - Santa Day",
     "creativeTab": {
-      "value": "CUSTOM:InfoyChristmas"
+      "value": "MISC"
     },
     "specialInfo": [],
     "hasGlow": false,
     "music": {
-      "value": "CUSTOM:christmas_fun"
+      "value": "CUSTOM:santa"
     },
-    "lengthInTicks": 1680,
+    "lengthInTicks": 2420,
     "analogOutput": 2
   }
 }

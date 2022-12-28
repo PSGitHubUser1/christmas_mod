@@ -413,6 +413,30 @@
           }
         ]
       }
+    },
+    {
+      "name": "SantaDay",
+      "type": "musicdisc",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "santa_day"
+    },
+    {
+      "name": "SantaDiscFragment",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "santa_disc_fragment"
+    },
+    {
+      "name": "SantaDiscmake",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "santa_discmake"
     }
   ],
   "variable_elements": [],
@@ -424,6 +448,14 @@
       ],
       "category": "record",
       "subtitle": "Christmas Fun Plays"
+    },
+    {
+      "name": "santa",
+      "files": [
+        "santa"
+      ],
+      "category": "record",
+      "subtitle": "Santa Disc Plays"
     }
   ],
   "language_map": {
@@ -433,9 +465,11 @@
       "item.christmas.hot_milk": "Hot Milk Bottle ",
       "advancements.hot_milk_adv.descr": "Drink Hot Milk",
       "advancements.candy_cane_adv.descr": "Eat Candy Cane",
+      "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
       "advancements.hot_milk_adv.title": "Important in colds!",
       "item.christmas.christmas_armor_boots": "Christmas Armor Boots",
       "advancements.candy_cane_adv.title": "Sweetier than expected!",
+      "item.christmas.santa_day.desc": "ByBoxi - Santa Day",
       "item.christmas.christmas_armor_leggings": "Christmas Armor Leggings",
       "item.christmas.candy_cane": "Candy Cane",
       "item.christmas.hot_coffee_milk": "Hot Coffee Milk Bottle",
@@ -443,6 +477,7 @@
       "item.christmas.milk_bottle": "Milk Bottle",
       "advancements.santa_totem_adv.title": "Santa saved me!",
       "advancements.milk_bottle_adv.descr": "Obtain Milk Bottle",
+      "item.christmas.santa_day": "Music Disc",
       "item.christmas.christmas_armor_chestplate": "Christmas Armor Chestplate",
       "advancements.ginger_milk_adv.descr": "Drink Ginger Milk",
       "subtitles.christmas_fun": "Christmas Fun Plays",
@@ -456,17 +491,20 @@
       "item.christmas.ginger_bread_cookie": "Gingerbread Biscuit",
       "advancements.candy_adv.descr": "Eat Soft Candy",
       "advancements.santa_totem_adv.descr": "Use Santa Totem",
+      "subtitles.santa": "Santa Disc Plays",
       "advancements.milk_bottle_adv.title": "It not cooked! Cook it!"
     },
     "en_us": {
       "item.christmas.sweet_candy": "Soft Candy",
-      "item.christmas.christmasfun_disc": "Christmasfun",
+      "item.christmas.christmasfun_disc": "Music Disc",
       "item.christmas.hot_milk": "Hot Milk Bottle",
       "advancements.hot_milk_adv.descr": "Drink Hot Milk",
       "advancements.candy_cane_adv.descr": "Eat Candy Cane",
+      "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
       "advancements.hot_milk_adv.title": "Important in colds!",
       "item.christmas.christmas_armor_boots": "Christmas Boots",
       "advancements.candy_cane_adv.title": "Sweetier than expected!",
+      "item.christmas.santa_day.desc": "ByBoxi - Santa Day",
       "item.christmas.christmas_armor_leggings": "Christmas Pant",
       "item.christmas.candy_cane": "Candy Cane",
       "item.christmas.hot_coffee_milk": "Hot Coffee Milk Bottle",
@@ -474,6 +512,7 @@
       "item.christmas.milk_bottle": "Sweet Milk Bottle",
       "advancements.santa_totem_adv.title": "Santa saved me!",
       "advancements.milk_bottle_adv.descr": "Obtain Milk Bottle",
+      "item.christmas.santa_day": "Music Disc",
       "item.christmas.christmas_armor_chestplate": "Christmas T-Shirt",
       "advancements.ginger_milk_adv.descr": "Drink Ginger Milk",
       "subtitles.christmas_fun": "Christmas Fun Plays",
@@ -487,6 +526,7 @@
       "item.christmas.ginger_bread_cookie": "Gingerbread Cookie",
       "advancements.candy_adv.descr": "Eat Soft Candy",
       "advancements.santa_totem_adv.descr": "Use Santa Totem",
+      "subtitles.santa": "Santa Disc Plays",
       "advancements.milk_bottle_adv.title": "It not cooked! Cook it!"
     },
     "en_in": {
@@ -495,9 +535,11 @@
       "item.christmas.hot_milk": "Hot Milk Bottle",
       "advancements.hot_milk_adv.descr": "Drink Hot Milk",
       "advancements.candy_cane_adv.descr": "Eat Candy Cane",
+      "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
       "advancements.hot_milk_adv.title": "Important in colds!",
       "item.christmas.christmas_armor_boots": "Christmas Armor Boots",
       "advancements.candy_cane_adv.title": "Sweetier than expected!",
+      "item.christmas.santa_day.desc": "ByBoxi - Santa Day",
       "item.christmas.christmas_armor_leggings": "Christmas Armor Leggings",
       "item.christmas.candy_cane": "Candy Cane",
       "item.christmas.hot_coffee_milk": "Hot Coffee Milk Bottle",
@@ -505,6 +547,7 @@
       "item.christmas.milk_bottle": "Milk Bottle",
       "advancements.santa_totem_adv.title": "Santa saved me!",
       "advancements.milk_bottle_adv.descr": "Obtain Milk Bottle",
+      "item.christmas.santa_day": "Music Disc",
       "item.christmas.christmas_armor_chestplate": "Christmas Armor Chestplate",
       "advancements.ginger_milk_adv.descr": "Drink Ginger Milk",
       "subtitles.christmas_fun": "Christmas Fun Plays",
@@ -518,6 +561,7 @@
       "item.christmas.ginger_bread_cookie": "Gingerbread Cookie",
       "advancements.candy_adv.descr": "Eat Soft Candy",
       "advancements.santa_totem_adv.descr": "Use Santa Totem",
+      "subtitles.santa": "Santa Disc Plays",
       "advancements.milk_bottle_adv.title": "It not cooked! Cook it!"
     }
   },

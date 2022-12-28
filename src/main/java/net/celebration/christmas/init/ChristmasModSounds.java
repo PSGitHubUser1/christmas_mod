@@ -10,8 +10,10 @@ import net.minecraft.core.Registry;
 
 public class ChristmasModSounds {
 	public static SoundEvent CHRISTMAS_FUN = new SoundEvent(new ResourceLocation("christmas", "christmas_fun"));
+	public static SoundEvent SANTA = new SoundEvent(new ResourceLocation("christmas", "santa"));
 
 	public static void load() {
 		Registry.register(Registry.SOUND_EVENT, new ResourceLocation("christmas", "christmas_fun"), CHRISTMAS_FUN);
+		Registry.register(Registry.SOUND_EVENT, new ResourceLocation("christmas", "santa"), SANTA);
 	}
 }

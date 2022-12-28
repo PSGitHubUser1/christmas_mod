@@ -10,6 +10,8 @@ import net.minecraft.core.Registry;
 
 import net.celebration.christmas.item.SweetCandyItem;
 import net.celebration.christmas.item.SantaTotemItem;
+import net.celebration.christmas.item.SantaDiscFragmentItem;
+import net.celebration.christmas.item.SantaDayItem;
 import net.celebration.christmas.item.MilkBottleItem;
 import net.celebration.christmas.item.HotMilkItem;
 import net.celebration.christmas.item.HotGingerMilkItem;
@@ -32,6 +34,8 @@ public class ChristmasModItems {
 	public static Item CHRISTMAS_ARMOR_LEGGINGS;
 	public static Item CHRISTMAS_ARMOR_BOOTS;
 	public static Item CHRISTMASFUN_DISC;
+	public static Item SANTA_DAY;
+	public static Item SANTA_DISC_FRAGMENT;
 
 	public static void load() {
 		SANTA_TOTEM = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "santa_totem"), new SantaTotemItem());
@@ -52,5 +56,8 @@ public class ChristmasModItems {
 				new ChristmasArmorItem.Boots());
 		CHRISTMASFUN_DISC = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "christmasfun_disc"),
 				new ChristmasFunDiscItem());
+		SANTA_DAY = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "santa_day"), new SantaDayItem());
+		SANTA_DISC_FRAGMENT = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "santa_disc_fragment"),
+				new SantaDiscFragmentItem());
 	}
 }

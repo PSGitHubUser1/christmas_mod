@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "christmas:santa_disc_fragment"
+    },
+    "1": {
+      "item": "christmas:santa_disc_fragment"
+    },
+    "2": {
+      "item": "christmas:santa_disc_fragment"
+    },
+    "3": {
+      "item": "christmas:santa_disc_fragment"
+    },
+    "4": {
+      "item": "christmas:santa_disc_fragment"
+    },
+    "5": {
+      "item": "christmas:santa_disc_fragment"
+    },
+    "6": {
+      "item": "christmas:santa_disc_fragment"
+    },
+    "7": {
+      "item": "christmas:santa_disc_fragment"
+    },
+    "8": {
+      "item": "christmas:santa_disc_fragment"
+    }
+  },
+  "result": {
+    "item": "christmas:santa_day",
+    "count": 1
+  }
+}
