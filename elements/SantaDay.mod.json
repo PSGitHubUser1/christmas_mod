@@ -6,7 +6,7 @@
     "texture": "santa",
     "description": "ByBoxi - Santa Day",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:InfoyChristmas"
     },
     "specialInfo": [],
     "hasGlow": false,
