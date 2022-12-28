@@ -349,6 +349,70 @@
           }
         ]
       }
+    },
+    {
+      "name": "GingerBreadCookiePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ginger_bread_cookie_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HotMilkPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_milk_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MilkBottlePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_bottle_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HotGingerMilkPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_ginger_milk_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -407,7 +471,7 @@
       "item.christmas.candy_cane": "Candy Cane",
       "item.christmas.hot_coffee_milk": "Hot Coffee Milk Bottle",
       "advancements.gingerbread_adv.title": "Made with sweeetiness!",
-      "item.christmas.milk_bottle": "Milk Bottle",
+      "item.christmas.milk_bottle": "Sweet Milk Bottle",
       "advancements.santa_totem_adv.title": "Santa saved me!",
       "advancements.milk_bottle_adv.descr": "Obtain Milk Bottle",
       "item.christmas.christmas_armor_chestplate": "Christmas T-Shirt",

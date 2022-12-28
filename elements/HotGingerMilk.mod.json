@@ -29,6 +29,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "HotGingerMilkPlayerFinishesUsingItem"
+    },
     "isFood": true,
     "nutritionalValue": 9,
     "saturation": 0.8,

@@ -11,6 +11,7 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 
+import net.celebration.christmas.procedures.MilkBottlePlayerFinishesUsingItemProcedure;
 import net.celebration.christmas.init.ChristmasModTabs;
 
 public class MilkBottleItem extends Item {
@@ -35,6 +36,12 @@ public class MilkBottleItem extends Item {
 	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
 		ItemStack retval = new ItemStack(Items.GLASS_BOTTLE);
 		super.finishUsingItem(itemstack, world, entity);
+		double x = entity.getX();
+		double y = entity.getY();
+		double z = entity.getZ();
+
+		MilkBottlePlayerFinishesUsingItemProcedure
+				.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
 		if (itemstack.isEmpty()) {
 			return retval;
 		} else {

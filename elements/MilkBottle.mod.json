@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "milk_bottle_unhot",
     "customModelName": "Normal",
-    "name": "Milk Bottle",
+    "name": "Sweet Milk Bottle",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:InfoyChristmas"
@@ -29,6 +29,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "MilkBottlePlayerFinishesUsingItem"
+    },
     "isFood": true,
     "nutritionalValue": 5,
     "saturation": 0.3,
