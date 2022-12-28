@@ -17,18 +17,7 @@
   },
   "criteria": {
     "santa_totem_adv": {
-      "trigger": "minecraft:item_durability_changed",
-      "conditions": {
-        "item": {
-          "items": [
-            "christmas:santa_totem"
-          ],
-          "durability": {
-            "min": 1,
-            "max": 16000
-          }
-        }
-      }
+      "trigger": "minecraft:impossible"
     }
   }
 }

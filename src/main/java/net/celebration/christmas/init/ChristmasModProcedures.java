@@ -6,6 +6,7 @@ package net.celebration.christmas.init;
 
 import net.celebration.christmas.procedures.TreeAdditionalGenerationConditionProcedure;
 import net.celebration.christmas.procedures.SantaTotemActivateProcedure;
+import net.celebration.christmas.procedures.GrantTotemAdvProcedure;
 import net.celebration.christmas.procedures.GrantRecipesProcedure;
 
 @SuppressWarnings("InstantiationOfUtilityClass")
@@ -14,5 +15,6 @@ public class ChristmasModProcedures {
 		new SantaTotemActivateProcedure();
 		new GrantRecipesProcedure();
 		new TreeAdditionalGenerationConditionProcedure();
+		new GrantTotemAdvProcedure();
 	}
 }

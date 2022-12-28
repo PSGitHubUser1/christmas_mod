@@ -361,6 +361,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "GrantTotemAdv",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grant_totem_adv",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
