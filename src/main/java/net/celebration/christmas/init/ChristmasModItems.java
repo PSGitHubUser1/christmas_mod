@@ -23,7 +23,7 @@ public class ChristmasModItems {
 	public static Item SANTA_TOTEM;
 	public static Item GINGER_BREAD_COOKIE;
 	public static Item HOT_MILK;
-	public static Item HOT_GINGER_MILK;
+	public static Item HOT_COFFEE_MILK;
 	public static Item MILK_BOTTLE;
 	public static Item SWEET_CANDY;
 	public static Item CANDY_CANE;
@@ -38,7 +38,7 @@ public class ChristmasModItems {
 		GINGER_BREAD_COOKIE = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "ginger_bread_cookie"),
 				new GingerBreadCookieItem());
 		HOT_MILK = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "hot_milk"), new HotMilkItem());
-		HOT_GINGER_MILK = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "hot_ginger_milk"), new HotGingerMilkItem());
+		HOT_COFFEE_MILK = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "hot_coffee_milk"), new HotGingerMilkItem());
 		MILK_BOTTLE = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "milk_bottle"), new MilkBottleItem());
 		SWEET_CANDY = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "sweet_candy"), new SweetCandyItem());
 		CANDY_CANE = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "candy_cane"), new CandyCaneItem());

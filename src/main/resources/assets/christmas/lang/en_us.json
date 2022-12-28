@@ -1,5 +1,4 @@
 {
-  "item.christmas.hot_ginger_milk": "Hot Ginger Milk Bottle",
   "item.christmas.sweet_candy": "Soft Candy",
   "item.christmas.christmasfun_disc": "Christmasfun",
   "item.christmas.hot_milk": "Hot Milk Bottle",
@@ -10,6 +9,7 @@
   "advancements.candy_cane_adv.title": "Sweetier than expected!",
   "item.christmas.christmas_armor_leggings": "Christmas Pant",
   "item.christmas.candy_cane": "Candy Cane",
+  "item.christmas.hot_coffee_milk": "Hot Coffee Milk Bottle",
   "advancements.gingerbread_adv.title": "Made with sweeetiness!",
   "item.christmas.milk_bottle": "Milk Bottle",
   "advancements.santa_totem_adv.title": "Santa saved me!",
@@ -21,7 +21,7 @@
   "item.christmas.christmas_armor_helmet": "Christmas Cap",
   "item.christmas.christmasfun_disc.desc": "vlqs - Christmasfun",
   "advancements.gingerbread_adv.descr": "Obtain Gingerbread Cookie",
-  "advancements.ginger_milk_adv.title": "Different taste?",
+  "advancements.ginger_milk_adv.title": "Different taste in Coffee?",
   "advancements.candy_adv.title": "Tooth Fairy!",
   "item.christmas.santa_totem": "Santa Totem",
   "item.christmas.ginger_bread_cookie": "Gingerbread Cookie",

@@ -17,38 +17,6 @@
       "registry_name": "santa_totem"
     },
     {
-      "name": "SantaTotemActivate",
-      "type": "procedure",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "santa_totem_activate",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "GingerBreadCookie",
       "type": "item",
       "sortid": 4,
@@ -158,7 +126,7 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hot_ginger_milk"
+      "registry_name": "hot_coffee_milk"
     },
     {
       "name": "HotGingermilkmake",
@@ -335,14 +303,18 @@
       "registry_name": "christmasfun_disc"
     },
     {
-      "name": "TreeAdditionalGenerationCondition",
+      "name": "SantaTotemRightclicked",
       "type": "procedure",
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tree_additional_generation_condition",
+      "registry_name": "santa_totem_rightclicked",
       "metadata": {
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -363,12 +335,12 @@
       }
     },
     {
-      "name": "GrantTotemAdv",
+      "name": "SantaTotemEntitySwingsItem",
       "type": "procedure",
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "grant_totem_adv",
+      "registry_name": "santa_totem_entity_swings_item",
       "metadata": {
         "dependencies": [
           {
@@ -392,7 +364,6 @@
   ],
   "language_map": {
     "en_gb": {
-      "item.christmas.hot_ginger_milk": "Hot Ginger Milk Bottle",
       "item.christmas.sweet_candy": "Sweet Candy",
       "item.christmas.christmasfun_disc": "Christmasfun",
       "item.christmas.hot_milk": "Hot Milk Bottle ",
@@ -403,6 +374,7 @@
       "advancements.candy_cane_adv.title": "Sweetier than expected!",
       "item.christmas.christmas_armor_leggings": "Christmas Armor Leggings",
       "item.christmas.candy_cane": "Candy Cane",
+      "item.christmas.hot_coffee_milk": "Hot Coffee Milk Bottle",
       "advancements.gingerbread_adv.title": "Made with sweeetiness!",
       "item.christmas.milk_bottle": "Milk Bottle",
       "advancements.santa_totem_adv.title": "Santa saved me!",
@@ -423,7 +395,6 @@
       "advancements.milk_bottle_adv.title": "It not cooked! Cook it!"
     },
     "en_us": {
-      "item.christmas.hot_ginger_milk": "Hot Ginger Milk Bottle",
       "item.christmas.sweet_candy": "Soft Candy",
       "item.christmas.christmasfun_disc": "Christmasfun",
       "item.christmas.hot_milk": "Hot Milk Bottle",
@@ -434,6 +405,7 @@
       "advancements.candy_cane_adv.title": "Sweetier than expected!",
       "item.christmas.christmas_armor_leggings": "Christmas Pant",
       "item.christmas.candy_cane": "Candy Cane",
+      "item.christmas.hot_coffee_milk": "Hot Coffee Milk Bottle",
       "advancements.gingerbread_adv.title": "Made with sweeetiness!",
       "item.christmas.milk_bottle": "Milk Bottle",
       "advancements.santa_totem_adv.title": "Santa saved me!",
@@ -445,7 +417,7 @@
       "item.christmas.christmas_armor_helmet": "Christmas Cap",
       "item.christmas.christmasfun_disc.desc": "vlqs - Christmasfun",
       "advancements.gingerbread_adv.descr": "Obtain Gingerbread Cookie",
-      "advancements.ginger_milk_adv.title": "Different taste?",
+      "advancements.ginger_milk_adv.title": "Different taste in Coffee?",
       "advancements.candy_adv.title": "Tooth Fairy!",
       "item.christmas.santa_totem": "Santa Totem",
       "item.christmas.ginger_bread_cookie": "Gingerbread Cookie",
@@ -454,7 +426,6 @@
       "advancements.milk_bottle_adv.title": "It not cooked! Cook it!"
     },
     "en_in": {
-      "item.christmas.hot_ginger_milk": "Hot Ginger Milk Bottle",
       "item.christmas.sweet_candy": "Sweet Candy",
       "item.christmas.christmasfun_disc": "Christmasfun",
       "item.christmas.hot_milk": "Hot Milk Bottle",
@@ -465,6 +436,7 @@
       "advancements.candy_cane_adv.title": "Sweetier than expected!",
       "item.christmas.christmas_armor_leggings": "Christmas Armor Leggings",
       "item.christmas.candy_cane": "Candy Cane",
+      "item.christmas.hot_coffee_milk": "Hot Coffee Milk Bottle",
       "advancements.gingerbread_adv.title": "Made with sweeetiness!",
       "item.christmas.milk_bottle": "Milk Bottle",
       "advancements.santa_totem_adv.title": "Santa saved me!",

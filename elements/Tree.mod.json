@@ -3,9 +3,9 @@
   "_type": "structure",
   "definition": {
     "structure": "tree_new",
-    "randomlyRotateStructure": true,
+    "randomlyRotateStructure": false,
     "surfaceDetectionType": "First block",
-    "spawnProbability": 4900,
+    "spawnProbability": 2200,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
@@ -249,6 +249,6 @@
         "value": "wooded_badlands_plateau"
       }
     ],
-    "ignoreBlocks": "STRUCTURE_BLOCK"
+    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"
   }
 }

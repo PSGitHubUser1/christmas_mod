@@ -25,12 +25,22 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "~ Texture by JerryJace"
+      "Totem of Healing",
+      "Right-click to heal yourself!"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "SantaTotemRightclicked"
+    },
+    "onRightClickedOnBlock": {
+      "name": "SantaTotemRightclicked"
+    },
+    "onEntitySwing": {
+      "name": "SantaTotemEntitySwingsItem"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

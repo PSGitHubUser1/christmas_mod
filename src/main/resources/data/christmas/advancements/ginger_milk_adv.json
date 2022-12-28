@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "christmas:hot_ginger_milk"
+      "item": "christmas:hot_coffee_milk"
     },
     "title": {
       "translate": "advancements.ginger_milk_adv.title"
@@ -20,7 +20,7 @@
       "conditions": {
         "item": {
           "items": [
-            "christmas:hot_ginger_milk"
+            "christmas:hot_coffee_milk"
           ]
         }
       }
