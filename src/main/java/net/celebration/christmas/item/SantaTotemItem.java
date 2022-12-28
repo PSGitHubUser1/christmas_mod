@@ -25,7 +25,7 @@ import io.github.fabricators_of_create.porting_lib.item.EntitySwingListenerItem;
 
 public class SantaTotemItem extends Item implements EntitySwingListenerItem {
 	public SantaTotemItem() {
-		super(new Item.Properties().tab(ChristmasModTabs.TAB_INFOY_CHRISTMAS).stacksTo(1).fireResistant().rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().tab(ChristmasModTabs.TAB_INFOY_CHRISTMAS).stacksTo(1).fireResistant().rarity(Rarity.RARE));
 	}
 
 	@Override
