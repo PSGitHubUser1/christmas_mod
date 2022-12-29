@@ -437,6 +437,54 @@
       "compiles": true,
       "locked_code": true,
       "registry_name": "santa_discmake"
+    },
+    {
+      "name": "BurningSkull2",
+      "type": "painting",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "christmas_burning_skull"
+    },
+    {
+      "name": "ChristmasBust",
+      "type": "painting",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "christmas_bust"
+    },
+    {
+      "name": "ChristmasCreebet",
+      "type": "painting",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "christmas_creebet"
+    },
+    {
+      "name": "ChristmasFighters",
+      "type": "painting",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "christmas_fighters"
+    },
+    {
+      "name": "ChristmasGraham",
+      "type": "painting",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "christmas_graham"
+    },
+    {
+      "name": "ChristmasWanderer",
+      "type": "painting",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "christmas_wanderer"
     }
   ],
   "variable_elements": [],
@@ -465,8 +513,8 @@
       "item.christmas.hot_milk": "Hot Milk Bottle ",
       "advancements.hot_milk_adv.descr": "Drink Hot Milk",
       "advancements.candy_cane_adv.descr": "Eat Candy Cane",
-      "advancements.hot_milk_adv.title": "Important in colds!",
       "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
+      "advancements.hot_milk_adv.title": "Important in colds!",
       "item.christmas.christmas_armor_boots": "Christmas Armor Boots",
       "advancements.candy_cane_adv.title": "Sweetier than expected!",
       "item.christmas.santa_day.desc": "ByBoxi - Santa Day",
@@ -500,8 +548,8 @@
       "item.christmas.hot_milk": "Sweet Hot Milk Bottle",
       "advancements.hot_milk_adv.descr": "Drink Hot Milk",
       "advancements.candy_cane_adv.descr": "Eat Candy Cane",
-      "advancements.hot_milk_adv.title": "Important in colds!",
       "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
+      "advancements.hot_milk_adv.title": "Important in colds!",
       "item.christmas.christmas_armor_boots": "Christmas Boots",
       "advancements.candy_cane_adv.title": "Sweetier than expected!",
       "item.christmas.santa_day.desc": "ByBoxi - Santa Day",
@@ -535,8 +583,8 @@
       "item.christmas.hot_milk": "Hot Milk Bottle",
       "advancements.hot_milk_adv.descr": "Drink Hot Milk",
       "advancements.candy_cane_adv.descr": "Eat Candy Cane",
-      "advancements.hot_milk_adv.title": "Important in colds!",
       "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
+      "advancements.hot_milk_adv.title": "Important in colds!",
       "item.christmas.christmas_armor_boots": "Christmas Armor Boots",
       "advancements.candy_cane_adv.title": "Sweetier than expected!",
       "item.christmas.santa_day.desc": "ByBoxi - Santa Day",

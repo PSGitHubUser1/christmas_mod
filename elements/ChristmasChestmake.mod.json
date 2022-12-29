@@ -7,40 +7,40 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.LEATHER"
+        "value": "CUSTOM:HotMilk"
       },
       {
-        "value": "Items.DYE#1"
+        "value": "Items.SUGAR"
       },
       {
-        "value": "Items.LEATHER"
+        "value": "Items.COOKIE"
       },
       {
-        "value": "Items.LEATHER"
+        "value": "Items.DYE#3"
       },
       {
-        "value": "Items.DYE#19"
+        "value": "Items.SUGAR"
       },
       {
-        "value": "Items.LEATHER"
+        "value": ""
       },
       {
-        "value": "Items.LEATHER"
+        "value": ""
       },
       {
-        "value": "Items.LEATHER"
+        "value": ""
       },
       {
-        "value": "Items.LEATHER"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ChristmasArmor.body"
+      "value": "CUSTOM:HotGingerMilk"
     },
-    "name": "christmas_chestplate_make",
+    "name": "hot_gingermilk_make",
     "namespace": "mod"
   }
 }
