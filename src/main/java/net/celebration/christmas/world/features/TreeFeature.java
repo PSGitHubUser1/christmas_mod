@@ -55,7 +55,7 @@ public class TreeFeature extends Feature<NoneFeatureConfiguration> {
 
 	public TreeFeature() {
 		super(NoneFeatureConfiguration.CODEC);
-		base_blocks = List.of(Blocks.GRASS_BLOCK, Blocks.DIRT);
+		base_blocks = List.of(Blocks.GRASS_BLOCK);
 	}
 
 	@Override
@@ -63,11 +63,11 @@ public class TreeFeature extends Feature<NoneFeatureConfiguration> {
 		if (!generate_dimensions.contains(context.level().getLevel().dimension()))
 			return false;
 		if (template == null)
-			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("christmas", "tree_new"));
+			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("christmas", "tree_new1"));
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;
-		if ((context.random().nextInt(1000000) + 1) <= 2200) {
+		if ((context.random().nextInt(1000000) + 1) <= 4300) {
 			int count = context.random().nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {
 				int i = context.origin().getX() + context.random().nextInt(16);
