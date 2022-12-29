@@ -239,22 +239,6 @@
       "registry_name": "christmas_helmetmake"
     },
     {
-      "name": "ChristmasChestmake",
-      "type": "recipe",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "christmas_chestmake"
-    },
-    {
-      "name": "ChristmasHelmetmake1",
-      "type": "recipe",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "christmas_helmetmake_1"
-    },
-    {
       "name": "ChristmasBootsmake",
       "type": "recipe",
       "sortid": 33,
@@ -485,6 +469,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "christmas_wanderer"
+    },
+    {
+      "name": "ChristmasHelmetmake1",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "christmas_helmetmake_1"
+    },
+    {
+      "name": "ChristmasChestplatemake",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "christmas_chestplatemake"
+    },
+    {
+      "name": "TodoList",
+      "type": "code",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "todo_list"
     }
   ],
   "variable_elements": [],
@@ -513,8 +521,8 @@
       "item.christmas.hot_milk": "Hot Milk Bottle ",
       "advancements.hot_milk_adv.descr": "Drink Hot Milk",
       "advancements.candy_cane_adv.descr": "Eat Candy Cane",
-      "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
       "advancements.hot_milk_adv.title": "Important in colds!",
+      "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
       "item.christmas.christmas_armor_boots": "Christmas Armor Boots",
       "advancements.candy_cane_adv.title": "Sweetier than expected!",
       "item.christmas.santa_day.desc": "ByBoxi - Santa Day",
@@ -548,8 +556,8 @@
       "item.christmas.hot_milk": "Sweet Hot Milk Bottle",
       "advancements.hot_milk_adv.descr": "Drink Hot Milk",
       "advancements.candy_cane_adv.descr": "Eat Candy Cane",
-      "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
       "advancements.hot_milk_adv.title": "Important in colds!",
+      "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
       "item.christmas.christmas_armor_boots": "Christmas Boots",
       "advancements.candy_cane_adv.title": "Sweetier than expected!",
       "item.christmas.santa_day.desc": "ByBoxi - Santa Day",
@@ -583,8 +591,8 @@
       "item.christmas.hot_milk": "Hot Milk Bottle",
       "advancements.hot_milk_adv.descr": "Drink Hot Milk",
       "advancements.candy_cane_adv.descr": "Eat Candy Cane",
-      "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
       "advancements.hot_milk_adv.title": "Important in colds!",
+      "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
       "item.christmas.christmas_armor_boots": "Christmas Armor Boots",
       "advancements.candy_cane_adv.title": "Sweetier than expected!",
       "item.christmas.santa_day.desc": "ByBoxi - Santa Day",
@@ -620,7 +628,7 @@
   "workspaceSettings": {
     "modid": "christmas",
     "modName": "Christmas",
-    "version": "0.2",
+    "version": "0.3",
     "description": "Christmas Mod by InfoyPS",
     "author": "InfoyPS,MCreator",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/christmasmod",

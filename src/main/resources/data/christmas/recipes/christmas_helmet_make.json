@@ -19,13 +19,13 @@
       "item": "minecraft:leather"
     },
     "4": {
-      "item": "minecraft:red_dye"
+      "item": "minecraft:white_dye"
     },
     "5": {
       "item": "minecraft:leather"
     },
     "7": {
-      "item": "minecraft:white_dye"
+      "item": "minecraft:red_dye"
     }
   },
   "result": {
