@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
-    "group": "candy",
-    "recipeShapeless": true,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.SUGAR"
+        "value": ""
       },
       {
-        "value": "Items.SUGAR"
+        "value": "Items.GLASS_BOTTLE"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.COOKIE"
+        "value": "Items.IRON_NUGGET"
       },
       {
-        "value": "Items.COOKIE"
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.SWEET_BERRIES"
-      },
-      {
-        "value": "Items.SWEET_BERRIES"
+        "value": "Items.IRON_NUGGET"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SweetCandy"
+      "value": "CUSTOM:IronBottle"
     },
-    "name": "candy_make",
+    "name": "iron_bottle_make",
     "namespace": "mod"
   }
 }

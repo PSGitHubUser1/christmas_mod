@@ -12,13 +12,20 @@ import net.celebration.christmas.item.SweetCandyItem;
 import net.celebration.christmas.item.SantaTotemItem;
 import net.celebration.christmas.item.SantaDiscFragmentItem;
 import net.celebration.christmas.item.SantaDayItem;
+import net.celebration.christmas.item.MortalPestleItem;
 import net.celebration.christmas.item.MilkBottleItem;
+import net.celebration.christmas.item.JamOnBreadItem;
+import net.celebration.christmas.item.JamBottleItem;
+import net.celebration.christmas.item.IronBottleItem;
 import net.celebration.christmas.item.HotMilkItem;
+import net.celebration.christmas.item.HotMilkBottleSmall1Item;
 import net.celebration.christmas.item.HotGingerMilkItem;
 import net.celebration.christmas.item.GingerBreadCookieItem;
 import net.celebration.christmas.item.ChristmasFunDiscItem;
 import net.celebration.christmas.item.ChristmasArmorItem;
+import net.celebration.christmas.item.ChocoMilkBottleItem;
 import net.celebration.christmas.item.CandyCaneItem;
+import net.celebration.christmas.item.AppleJuiceBottleItem;
 import net.celebration.christmas.ChristmasMod;
 
 public class ChristmasModItems {
@@ -36,6 +43,13 @@ public class ChristmasModItems {
 	public static Item CHRISTMASFUN_DISC;
 	public static Item SANTA_DAY;
 	public static Item SANTA_DISC_FRAGMENT;
+	public static Item MORTAL_PESTLE;
+	public static Item APPLE_JUICE_BOTTLE;
+	public static Item IRON_BOTTLE;
+	public static Item CHOCO_MILK_BOTTLE;
+	public static Item JAM_BOTTLE;
+	public static Item JAM_ON_BREAD;
+	public static Item HOT_MILK_BOTTLE_SMALL;
 
 	public static void load() {
 		SANTA_TOTEM = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "santa_totem"), new SantaTotemItem());
@@ -59,5 +73,15 @@ public class ChristmasModItems {
 		SANTA_DAY = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "santa_day"), new SantaDayItem());
 		SANTA_DISC_FRAGMENT = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "santa_disc_fragment"),
 				new SantaDiscFragmentItem());
+		MORTAL_PESTLE = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "mortal_pestle"), new MortalPestleItem());
+		APPLE_JUICE_BOTTLE = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "apple_juice_bottle"),
+				new AppleJuiceBottleItem());
+		IRON_BOTTLE = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "iron_bottle"), new IronBottleItem());
+		CHOCO_MILK_BOTTLE = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "choco_milk_bottle"),
+				new ChocoMilkBottleItem());
+		JAM_BOTTLE = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "jam_bottle"), new JamBottleItem());
+		JAM_ON_BREAD = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "jam_on_bread"), new JamOnBreadItem());
+		HOT_MILK_BOTTLE_SMALL = Registry.register(Registry.ITEM, new ResourceLocation(ChristmasMod.MODID, "hot_milk_bottle_small"),
+				new HotMilkBottleSmall1Item());
 	}
 }

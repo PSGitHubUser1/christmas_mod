@@ -6,41 +6,41 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "candy",
+    "group": "",
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.SUGAR"
+        "value": "Items.APPLE"
       },
       {
-        "value": "Items.SUGAR"
+        "value": "Items.POTIONITEM"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "Items.COOKIE"
-      },
-      {
-        "value": "Items.COOKIE"
+        "value": "CUSTOM:MortalPestle"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.SWEET_BERRIES"
+        "value": ""
       },
       {
-        "value": "Items.SWEET_BERRIES"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SweetCandy"
+      "value": "CUSTOM:AppleJuiceBottle"
     },
-    "name": "candy_make",
+    "name": "apple_juice_bottle_make",
     "namespace": "mod"
   }
 }

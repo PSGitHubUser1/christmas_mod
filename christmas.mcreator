@@ -29,7 +29,7 @@
       "type": "recipe",
       "sortid": 6,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "santa_totem_recipe"
     },
     {
@@ -133,7 +133,7 @@
       "type": "recipe",
       "sortid": 20,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "hot_milkmake"
     },
     {
@@ -141,7 +141,7 @@
       "type": "recipe",
       "sortid": 21,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "milk_bottlemake"
     },
     {
@@ -165,7 +165,7 @@
       "type": "recipe",
       "sortid": 24,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "candymake"
     },
     {
@@ -173,7 +173,7 @@
       "type": "recipe",
       "sortid": 25,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "candy_canemake"
     },
     {
@@ -219,7 +219,7 @@
       "type": "recipe",
       "sortid": 30,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "christmas_helmetmake"
     },
     {
@@ -227,7 +227,7 @@
       "type": "recipe",
       "sortid": 33,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "christmas_bootsmake"
     },
     {
@@ -403,7 +403,7 @@
       "type": "recipe",
       "sortid": 46,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "santa_discmake"
     },
     {
@@ -459,7 +459,7 @@
       "type": "recipe",
       "sortid": 53,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "christmas_helmetmake_1"
     },
     {
@@ -467,7 +467,7 @@
       "type": "recipe",
       "sortid": 54,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "christmas_chestplatemake"
     },
     {
@@ -483,7 +483,7 @@
       "type": "recipe",
       "sortid": 56,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "gingerbread_cookiemake"
     },
     {
@@ -491,8 +491,128 @@
       "type": "recipe",
       "sortid": 57,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "hot_coffee_milkmake"
+    },
+    {
+      "name": "MortalPestle",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortal_pestle"
+    },
+    {
+      "name": "MortalPestlemake",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortal_pestlemake"
+    },
+    {
+      "name": "AppleJuiceBottle",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_juice_bottle"
+    },
+    {
+      "name": "IronBottle",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bottle"
+    },
+    {
+      "name": "MortalPestlemake2",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortal_pestlemake_2"
+    },
+    {
+      "name": "IronBottlemake",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bottlemake"
+    },
+    {
+      "name": "ChocoMilkBottle",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choco_milk_bottle"
+    },
+    {
+      "name": "ChocoMilkBottlemake",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choco_milk_bottlemake"
+    },
+    {
+      "name": "AppleJuiceBottlemake",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_juice_bottlemake"
+    },
+    {
+      "name": "JamBottle",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jam_bottle"
+    },
+    {
+      "name": "JamBottlemake",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jam_bottlemake"
+    },
+    {
+      "name": "JamOnBread",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jam_on_bread"
+    },
+    {
+      "name": "JamOnBreadmake",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jam_on_breadmake"
+    },
+    {
+      "name": "HotMilkBottleSmall1",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_milk_bottle_small"
+    },
+    {
+      "name": "HotMilkBottleSmall",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_milk_bottle_small"
     }
   ],
   "variable_elements": [],
@@ -521,21 +641,27 @@
       "item.christmas.hot_milk": "Sweet Hot Milk Bottle",
       "advancements.hot_milk_adv.descr": "Drink Hot Milk",
       "advancements.candy_cane_adv.descr": "Eat Candy Cane",
-      "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
       "advancements.hot_milk_adv.title": "Important in colds!",
+      "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
+      "item.christmas.hot_milk_bottle_small": "Hot Milk Bottle (Small)",
       "item.christmas.christmas_armor_boots": "Christmas Armor Boots",
       "advancements.candy_cane_adv.title": "Sweetier than expected!",
+      "item.christmas.apple_juice_bottle": "Apple Juice Bottle",
       "item.christmas.santa_day.desc": "ByBoxi - Santa Day",
       "item.christmas.christmas_armor_leggings": "Christmas Armor Leggings",
+      "item.christmas.choco_milk_bottle": "Choco Milk Bottle",
       "item.christmas.candy_cane": "Candy Cane",
       "item.christmas.hot_coffee_milk": "Hot Coffee Milk Bottle",
+      "item.christmas.mortal_pestle": "Mortal Pestle",
       "advancements.gingerbread_adv.title": "Made with sweeetiness!",
       "item.christmas.milk_bottle": "Milk Bottle",
       "item.christmas.sweet_hot_milk": "Sweet Hot Milk Bottle",
       "advancements.santa_totem_adv.title": "Santa saved me!",
       "advancements.milk_bottle_adv.descr": "Obtain Milk Bottle",
       "item.christmas.santa_day": "Music Disc",
+      "item.christmas.iron_bottle": "Iron Bottle",
       "item.christmas.christmas_armor_chestplate": "Christmas Armor Chestplate",
+      "item.christmas.jam_bottle": "Jam Bottle",
       "advancements.ginger_milk_adv.descr": "Drink Ginger Milk",
       "subtitles.christmas_fun": "Christmas Fun Plays",
       "itemGroup.christmas.infoy_christmas": "Infoy\u0027s Christmas Mod",
@@ -547,6 +673,7 @@
       "item.christmas.santa_totem": "Santa Totem",
       "item.christmas.ginger_bread_cookie": "Gingerbread Biscuit",
       "advancements.candy_adv.descr": "Eat Soft Candy",
+      "item.christmas.jam_on_bread": "Jam On Bread",
       "advancements.santa_totem_adv.descr": "Use Santa Totem",
       "subtitles.santa": "Santa Disc Plays",
       "advancements.milk_bottle_adv.title": "It not cooked! Cook it!"
@@ -557,21 +684,27 @@
       "item.christmas.hot_milk": "Sweet Hot Milk Bottle",
       "advancements.hot_milk_adv.descr": "Drink Hot Milk",
       "advancements.candy_cane_adv.descr": "Eat Candy Cane",
-      "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
       "advancements.hot_milk_adv.title": "Important in colds!",
+      "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
+      "item.christmas.hot_milk_bottle_small": "Hot Milk Bottle (Small)",
       "item.christmas.christmas_armor_boots": "Christmas Boots",
       "advancements.candy_cane_adv.title": "Sweetier than expected!",
+      "item.christmas.apple_juice_bottle": "Apple Juice Bottle (Small)",
       "item.christmas.santa_day.desc": "ByBoxi - Santa Day",
       "item.christmas.christmas_armor_leggings": "Christmas Pant",
+      "item.christmas.choco_milk_bottle": " Choco Milk Bottle (Small)",
       "item.christmas.candy_cane": "Candy Cane",
       "item.christmas.hot_coffee_milk": "Hot Coffee Milk Bottle",
+      "item.christmas.mortal_pestle": "Mortal Pestle",
       "advancements.gingerbread_adv.title": "Made with sweeetiness!",
       "item.christmas.milk_bottle": "Sweet Milk Bottle",
       "item.christmas.sweet_hot_milk": "Sweet Hot Milk Bottle",
       "advancements.santa_totem_adv.title": "Santa saved me!",
       "advancements.milk_bottle_adv.descr": "Obtain Milk Bottle",
       "item.christmas.santa_day": "Music Disc",
+      "item.christmas.iron_bottle": "Iron Bottle",
       "item.christmas.christmas_armor_chestplate": "Christmas T-Shirt",
+      "item.christmas.jam_bottle": "Jam Bottle",
       "advancements.ginger_milk_adv.descr": "Drink Ginger Milk",
       "subtitles.christmas_fun": "Christmas Fun Plays",
       "itemGroup.christmas.infoy_christmas": "Infoy\u0027s Christmas Mod",
@@ -583,6 +716,7 @@
       "item.christmas.santa_totem": "Santa Totem",
       "item.christmas.ginger_bread_cookie": "Gingerbread Cookie",
       "advancements.candy_adv.descr": "Eat Soft Candy",
+      "item.christmas.jam_on_bread": "Jam On Bread",
       "advancements.santa_totem_adv.descr": "Use Santa Totem",
       "subtitles.santa": "Santa Disc Plays",
       "advancements.milk_bottle_adv.title": "It not cooked! Cook it!"
@@ -593,21 +727,27 @@
       "item.christmas.hot_milk": "Sweet Hot Milk Bottle",
       "advancements.hot_milk_adv.descr": "Drink Hot Milk",
       "advancements.candy_cane_adv.descr": "Eat Candy Cane",
-      "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
       "advancements.hot_milk_adv.title": "Important in colds!",
+      "item.christmas.santa_disc_fragment": "Santa Disc Fragment",
+      "item.christmas.hot_milk_bottle_small": "Hot Milk Bottle (Small)",
       "item.christmas.christmas_armor_boots": "Christmas Armor Boots",
       "advancements.candy_cane_adv.title": "Sweetier than expected!",
+      "item.christmas.apple_juice_bottle": "Apple Juice Bottle",
       "item.christmas.santa_day.desc": "ByBoxi - Santa Day",
       "item.christmas.christmas_armor_leggings": "Christmas Armor Leggings",
+      "item.christmas.choco_milk_bottle": "Choco Milk Bottle",
       "item.christmas.candy_cane": "Candy Cane",
       "item.christmas.hot_coffee_milk": "Hot Coffee Milk Bottle",
+      "item.christmas.mortal_pestle": "Mortal Pestle",
       "advancements.gingerbread_adv.title": "Made with sweeetiness!",
       "item.christmas.milk_bottle": "Milk Bottle",
       "item.christmas.sweet_hot_milk": "Sweet Hot Milk Bottle",
       "advancements.santa_totem_adv.title": "Santa saved me!",
       "advancements.milk_bottle_adv.descr": "Obtain Milk Bottle",
       "item.christmas.santa_day": "Music Disc",
+      "item.christmas.iron_bottle": "Iron Bottle",
       "item.christmas.christmas_armor_chestplate": "Christmas Armor Chestplate",
+      "item.christmas.jam_bottle": "Jam Bottle",
       "advancements.ginger_milk_adv.descr": "Drink Ginger Milk",
       "subtitles.christmas_fun": "Christmas Fun Plays",
       "itemGroup.christmas.infoy_christmas": "Infoy\u0027s Christmas Mod",
@@ -619,6 +759,7 @@
       "item.christmas.santa_totem": "Santa Totem",
       "item.christmas.ginger_bread_cookie": "Gingerbread Cookie",
       "advancements.candy_adv.descr": "Eat Soft Candy",
+      "item.christmas.jam_on_bread": "Jam On Bread",
       "advancements.santa_totem_adv.descr": "Use Santa Totem",
       "subtitles.santa": "Santa Disc Plays",
       "advancements.milk_bottle_adv.title": "It not cooked! Cook it!"
@@ -631,14 +772,14 @@
   "workspaceSettings": {
     "modid": "christmas",
     "modName": "Christmas",
-    "version": "0.3",
+    "version": "0.4",
     "description": "Christmas Mod by InfoyPS",
-    "author": "InfoyPS,MCreator",
+    "author": "InfoyPS, MCreator",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/christmasmod",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "christmas_pointer",
+    "modPicture": "icon_new",
     "requiredMods": [
       "terrablender",
       "fabric"

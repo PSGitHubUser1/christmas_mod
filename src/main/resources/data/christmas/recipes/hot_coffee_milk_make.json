@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "christmas:hot_milk"
+      "item": "christmas:sweet_hot_milk"
     },
     {
       "item": "minecraft:sugar"

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "christmas:sweet_hot_milk"
+    }
+  ],
+  "result": {
+    "item": "christmas:hot_milk_bottle_small",
+    "count": 3
+  }
+}

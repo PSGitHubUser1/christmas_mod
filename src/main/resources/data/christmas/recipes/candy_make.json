@@ -1,4 +1,5 @@
 {
+  "group": "candy",
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
