@@ -10,16 +10,16 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.BREAD"
-      },
-      {
-        "value": "Items.COOKIE"
+        "value": "CUSTOM:HotMilk"
       },
       {
         "value": "Items.SUGAR"
       },
       {
-        "value": ""
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.DYE#3"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:GingerBreadCookie"
+      "value": "CUSTOM:HotGingerMilk"
     },
-    "name": "gingerbread_make",
+    "name": "hot_coffee_milk_make",
     "namespace": "mod"
   }
 }
