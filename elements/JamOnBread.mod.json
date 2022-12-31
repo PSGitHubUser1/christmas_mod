@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "jam_on_bread",
     "customModelName": "Normal",
-    "name": "Jam On Bread",
+    "name": "Jam Bread",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:InfoyChristmas"

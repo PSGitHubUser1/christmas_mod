@@ -1,5 +1,6 @@
 package net.celebration.christmas.procedures;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
@@ -11,22 +12,8 @@ import net.celebration.christmas.init.ChristmasModItems;
 import net.celebration.christmas.ChristmasMod;
 
 import java.util.Map;
-import java.util.HashMap;
-
-import io.github.fabricators_of_create.porting_lib.event.common.PlayerTickEvents;
 
 public class GrantRecipesProcedure {
-	public GrantRecipesProcedure() {
-		PlayerTickEvents.END.register((player) -> {
-			Map<String, Object> dependencies = new HashMap<>();
-			dependencies.put("entity", player);
-			dependencies.put("x", player.getX());
-			dependencies.put("y", player.getY());
-			dependencies.put("z", player.getZ());
-			dependencies.put("world", player.level);
-			execute(dependencies);
-		});
-	}
 
 	public static void execute(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
@@ -138,6 +125,51 @@ public class GrantRecipesProcedure {
 				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:christmas_chestplate_make")});
 			if (entity instanceof ServerPlayer _serverPlayer)
 				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:christmas_leggi_make")});
+		}
+		if ((entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Blocks.BASALT)) : false)
+				|| (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Blocks.POLISHED_BASALT)) : false)
+				|| (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Items.STICK)) : false)) {
+			if (entity instanceof ServerPlayer _serverPlayer)
+				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:mortal_pestle_make")});
+			if (entity instanceof ServerPlayer _serverPlayer)
+				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:mortal_pestle_make_2")});
+		}
+		if ((entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Items.IRON_NUGGET)) : false)
+				|| (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Items.GLASS_BOTTLE)) : false)) {
+			if (entity instanceof ServerPlayer _serverPlayer)
+				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:iron_bottle_make")});
+		}
+		if ((entity instanceof Player _playerHasItem
+				? _playerHasItem.getInventory().contains(new ItemStack(ChristmasModItems.HOT_MILK_BOTTLE_SMALL))
+				: false)
+				|| (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Items.COCOA_BEANS)) : false)) {
+			if (entity instanceof ServerPlayer _serverPlayer)
+				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:choco_milk_bottle_make")});
+		}
+		if ((entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Items.APPLE)) : false)
+				|| (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Items.POTION)) : false)
+				|| (entity instanceof Player _playerHasItem
+						? _playerHasItem.getInventory().contains(new ItemStack(ChristmasModItems.MORTAL_PESTLE))
+						: false)) {
+			if (entity instanceof ServerPlayer _serverPlayer)
+				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:apple_juice_bottle_make")});
+		}
+		if ((entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Items.APPLE)) : false)
+				|| (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Items.BEETROOT)) : false)
+				|| (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Items.GLASS_BOTTLE)) : false)) {
+			if (entity instanceof ServerPlayer _serverPlayer)
+				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:jam_bottle_make")});
+		}
+		if ((entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(ChristmasModItems.JAM_BOTTLE)) : false)
+				|| (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Items.BREAD)) : false)) {
+			if (entity instanceof ServerPlayer _serverPlayer)
+				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:jam_on_bread_make")});
+		}
+		if (entity instanceof Player _playerHasItem
+				? _playerHasItem.getInventory().contains(new ItemStack(ChristmasModItems.SWEET_HOT_MILK))
+				: false) {
+			if (entity instanceof ServerPlayer _serverPlayer)
+				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:hotmilkbottle_small_make")});
 		}
 	}
 }
