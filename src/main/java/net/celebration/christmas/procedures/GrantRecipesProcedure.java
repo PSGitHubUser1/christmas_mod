@@ -11,8 +11,22 @@ import net.celebration.christmas.init.ChristmasModItems;
 import net.celebration.christmas.ChristmasMod;
 
 import java.util.Map;
+import java.util.HashMap;
+
+import io.github.fabricators_of_create.porting_lib.event.common.PlayerTickEvents;
 
 public class GrantRecipesProcedure {
+	public GrantRecipesProcedure() {
+		PlayerTickEvents.END.register((player) -> {
+			Map<String, Object> dependencies = new HashMap<>();
+			dependencies.put("entity", player);
+			dependencies.put("x", player.getX());
+			dependencies.put("y", player.getY());
+			dependencies.put("z", player.getZ());
+			dependencies.put("world", player.level);
+			execute(dependencies);
+		});
+	}
 
 	public static void execute(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
@@ -29,11 +43,11 @@ public class GrantRecipesProcedure {
 		}
 		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Items.BREAD)) : false) {
 			if (entity instanceof ServerPlayer _serverPlayer)
-				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:gingerbread_make")});
+				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:gingerbread_cookie_make")});
 		}
 		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Items.SUGAR)) : false) {
 			if (entity instanceof ServerPlayer _serverPlayer)
-				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:gingerbread_make")});
+				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:gingerbread_cookie_make")});
 			if (entity instanceof ServerPlayer _serverPlayer)
 				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:hot_gingermilk_make")});
 			if (entity instanceof ServerPlayer _serverPlayer)
@@ -43,7 +57,7 @@ public class GrantRecipesProcedure {
 		}
 		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Items.COOKIE)) : false) {
 			if (entity instanceof ServerPlayer _serverPlayer)
-				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:gingerbread_make")});
+				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:gingerbread_cookie_make")});
 			if (entity instanceof ServerPlayer _serverPlayer)
 				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:hot_gingermilk_make")});
 			if (entity instanceof ServerPlayer _serverPlayer)
@@ -67,11 +81,13 @@ public class GrantRecipesProcedure {
 		}
 		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Items.COCOA_BEANS)) : false) {
 			if (entity instanceof ServerPlayer _serverPlayer)
-				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:hot_gingermilk_make")});
+				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:hot_coffee_milk_make")});
 		}
-		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(ChristmasModItems.HOT_MILK)) : false) {
+		if (entity instanceof Player _playerHasItem
+				? _playerHasItem.getInventory().contains(new ItemStack(ChristmasModItems.SWEET_HOT_MILK))
+				: false) {
 			if (entity instanceof ServerPlayer _serverPlayer)
-				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:hot_gingermilk_make")});
+				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:hot_coffee_milk_make")});
 			if (entity instanceof ServerPlayer _serverPlayer)
 				_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("christmas:candycane_make")});
 		}

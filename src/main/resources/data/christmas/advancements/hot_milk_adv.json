@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "christmas:hot_milk"
+      "item": "christmas:sweet_hot_milk"
     },
     "title": {
       "translate": "advancements.hot_milk_adv.title"
@@ -20,7 +20,7 @@
       "conditions": {
         "item": {
           "items": [
-            "christmas:hot_milk"
+            "christmas:sweet_hot_milk"
           ]
         }
       }
