@@ -35,8 +35,10 @@ body:
     label: Details
     description: To understand the issue, we need some details of your setup & system
     placeholder: |
-      MCreator version: [2021.1 / branch:master / ...]
-      Generator type: [forge-1.15.2 / forge-1.16.5 / ...]
+      MCreator version (*): [2022.3 / branch:master / ...]
+      Generator type (*): [forge-1.19.2 / fabric-1.19.2 / ...]
+      Fabric Generator version (*): [fabric-1.8.1 / fabric-1.8.2 / ...]
+      Fabric Essentials version (_): [fabric-1.6.2 / fabric-1.6.3 / ...]
    validations:
      required: true
  - type: textarea
