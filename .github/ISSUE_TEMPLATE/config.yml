@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links: 
   - name: "Youtube"
-    url: youtube.com/@infoyps
+    url: https://youtube.com/@infoyps
     about: My Youtube Channel
     
   - name: "GitHub"
-    url: github.com/PSGitHubUser1
+    url: https://github.com/PSGitHubUser1
     about: My github page
     
   - name: "Discord Server"
