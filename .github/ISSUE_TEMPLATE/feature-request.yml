@@ -6,14 +6,16 @@ body:
    attributes:
     label: Feature description
     description: Explain clearly
-    placeholder: Tell us here about the feature
+    placeholder: |
+     Tell us here about the feature
    validations:
     required: true
  - type: textarea
    attributes:
     label: Logs
     description: Provide loags [Optional]
-    placeholder: example_log.txt
+    placeholder: |
+     example_log.txt
    validations:
     required: false
  - type: checkboxes
